@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "Parstagram"
-                configuration.server = "https://rocky-falls-72269.herokuapp.com/parse"
+                configuration.server = "https://thawing-taiga-81089.herokuapp.com/parse"
             })
         )
         
